@@ -1,0 +1,38 @@
+@import url(../css/base/reset.css);
+@import url(../css/base/vars.css);
+@import url(../css/components/swiper-bundle.min.css);
+@import url(../css/common/common.css);
+@import url(../css/header/header.css);
+@import url(../css/sections/hero/hero.css);
+@import url(../css/sections/cases/cases.css);
+@import url(../css/components/popup.css);
+@import url(../css/sections/about/about.css);
+@import url(../css/sections/services/services.css);
+@import url(../css/sections/service/service.css);
+@import url(../css/sections/advantages/advantages.css);
+@import url(../css/sections/freeze/freeze.css);
+@import url(../css/components/gallery.css);
+@import url(../css/footer/footer.css);
+@import url(../css/animation/animation.css);
+
+@font-face {
+    font-family: Geist-Bold;
+    src: url(../fonts/Geist-Bold.woff2);
+}
+@font-face {
+    font-family: Geist-SemiBold;
+    src: url(../fonts/Geist-SemiBold.woff2);
+}
+@font-face {
+    font-family: Geist-Medium;
+    src: url(../fonts/Geist-Medium.woff2);
+}
+@font-face {
+    font-family: Geist-Regular;
+    src: url(../fonts/Geist-Regular.woff2);
+}
+@font-face {
+    font-family: Geist-Light;
+    src: url(../fonts/Geist-Light.woff2);
+}
+

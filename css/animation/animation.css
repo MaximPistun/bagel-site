@@ -1,0 +1,98 @@
+
+.title.element-animation{
+    opacity: 0;
+    transform: translateY(10%);
+    -webkit-transform: translateY(10%);
+    -moz-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    -o-transform: translateY(10%);
+    transition: all 1.3s ease;
+    -webkit-transition: all 1.3s ease;
+    -moz-transition: all 1.3s ease;
+    -ms-transition: all 1.3s ease;
+    -o-transition: all 1.3s ease;
+}
+.title.element-show{
+    opacity: 1;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+.about__column-name-company.element-animation{
+    opacity: 0;
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transition: all 1.8s ease 0.4s;
+    -webkit-transition: all 1.8s ease 0.4s;
+    -moz-transition: all 1.8s ease 0.4s;
+    -ms-transition: all 1.8s ease 0.4s;
+    -o-transition: all 1.8s ease 0.4s;
+}
+.about__column-name-company.element-show{
+    opacity: 1;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+.card.element-animation{
+    opacity: 0;
+    transform: translateY(12%);
+    -webkit-transform: translateY(12%);
+    -moz-transform: translateY(12%);
+    -ms-transform: translateY(12%);
+    -o-transform: translateY(12%);
+    will-change: transform, opacity;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+.card.element-show{
+    opacity: 1;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+.text.element-animation{
+    opacity: 0;
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    -o-transform: translateY(20%);
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+}
+.text.element-show{
+    opacity: 1;
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+.catalog__links.element-animation{
+    opacity: 0;
+    will-change: opacity;
+    transition: all 0.6s ease 0.4s;
+    -webkit-transition: all 0.6s ease 0.4s;
+    -moz-transition: all 0.6s ease 0.4s;
+    -ms-transition: all 0.6s ease 0.4s;
+    -o-transition: all 0.6s ease 0.4s;
+}
+.catalog__links.element-show{
+    opacity: 1;
+}

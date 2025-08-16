@@ -1,0 +1,99 @@
+:root {
+    --main-bg: #DADBDF;
+    --card-bg: #EDEDEF;
+    --light-bg: #ffffff;
+    --accent-bg: #034CD6;
+    --accent-second-bg: #C8FF3A;
+    --main-color: #5C6573;
+    --grey-color: #B3B3B3;
+    --dark-color: #000000;
+    --border-color: #F5F5F5;
+    --bold: Geist-Bold, sans-serif;
+    --semibold: Geist-SemiBold, sans-serif;
+    --medium: Geist-Medium, sans-serif;
+    --regular: Geist-Regular, sans-serif;
+    --light: Geist-Light, sans-serif;
+}
+
+* {
+    color: var(--main-color);
+    font-size: 16px;
+    font-family: var(--regular);
+    line-height: 140%;
+    user-select: none;
+}
+
+*::selection {
+    background: #c2c2c253;
+    /* Safari */
+}
+
+*::-moz-selection {
+    background: #c2c2c253;
+    /* Firefox */
+}
+
+/* Основной стиль скроллбара */
+::-webkit-scrollbar {
+        width: 10px;
+        height: 5px;
+        border-radius: 1px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        -ms-border-radius: 1px;
+        -o-border-radius: 1px;
+}
+
+/* Стиль ползунка */
+::-webkit-scrollbar-thumb {
+        background-color: var(--accent-bg);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
+/* Стиль трека */
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    /* Цвет трека */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+button,
+.burger {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    background: var(--main-bg);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    background-image: url(/img/bg/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.main {
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1800px;
+}
