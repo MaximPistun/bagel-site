@@ -1,6 +1,6 @@
 :root {
-    --main-bg: #DADBDF;
-    --card-bg: #EDEDEF;
+    --main-white: #FFFFFF;
+    --dop-white: #EDEDEF;
     --light-bg: #ffffff;
     --accent-bg: #034CD6;
     --accent-second-bg: #C8FF3A;
@@ -8,6 +8,26 @@
     --grey-color: #B3B3B3;
     --dark-color: #000000;
     --border-color: #F5F5F5;
+
+}
+
+:root {
+    /* Brand */
+    --color-primary-500: #034CD6;
+    /* главный акцентный цвет */
+
+    /* Neutral */
+    --color-black: #222222;
+    --color-white: #FFFFFF;
+
+    --color-gray-100: #F5F5F5;
+    /* фоновый */
+    --color-gray-500: #B4B4B4;
+    /* вторичный текст / бордер */
+    --color-gray-700: #5C6573;
+    /* более насыщенный нейтральный */
+
+    /* font */
     --bold: Geist-Bold, sans-serif;
     --semibold: Geist-SemiBold, sans-serif;
     --medium: Geist-Medium, sans-serif;
@@ -35,23 +55,23 @@
 
 /* Основной стиль скроллбара */
 ::-webkit-scrollbar {
-        width: 10px;
-        height: 5px;
-        border-radius: 1px;
-        -webkit-border-radius: 1px;
-        -moz-border-radius: 1px;
-        -ms-border-radius: 1px;
-        -o-border-radius: 1px;
+    width: 10px;
+    height: 5px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
 }
 
 /* Стиль ползунка */
 ::-webkit-scrollbar-thumb {
-        background-color: var(--accent-bg);
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+    background-color: var(--accent-bg);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* Стиль трека */
