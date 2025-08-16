@@ -16,8 +16,8 @@
 @import url(../css/animation/animation.css);
 
 @font-face {
-    font-family: Geist-Bold;
-    src: url(../fonts/Geist-Bold.woff2);
+    font-family: Xolonium-bold;
+    src: url(../fonts/Xolonium-bold.woff2);
 }
 @font-face {
     font-family: Geist-SemiBold;
@@ -31,8 +31,5 @@
     font-family: Geist-Regular;
     src: url(../fonts/Geist-Regular.woff2);
 }
-@font-face {
-    font-family: Geist-Light;
-    src: url(../fonts/Geist-Light.woff2);
-}
+
 
