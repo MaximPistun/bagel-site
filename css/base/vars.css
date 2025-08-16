@@ -1,38 +1,20 @@
 :root {
-    --main-white: #FFFFFF;
-    --dop-white: #EDEDEF;
-    --light-bg: #ffffff;
-    --accent-bg: #034CD6;
-    --accent-second-bg: #C8FF3A;
-    --main-color: #5C6573;
-    --grey-color: #B3B3B3;
-    --dark-color: #000000;
-    --border-color: #F5F5F5;
-
-}
-
-:root {
     /* Brand */
     --color-primary-500: #034CD6;
-    /* главный акцентный цвет */
+    --color-primary-700: #NOCOLORE;
 
     /* Neutral */
     --color-black: #222222;
     --color-white: #FFFFFF;
 
     --color-gray-100: #F5F5F5;
-    /* фоновый */
     --color-gray-500: #B4B4B4;
-    /* вторичный текст / бордер */
     --color-gray-700: #5C6573;
-    /* более насыщенный нейтральный */
 
-    /* font */
-    --bold: Geist-Bold, sans-serif;
-    --semibold: Geist-SemiBold, sans-serif;
-    --medium: Geist-Medium, sans-serif;
-    --regular: Geist-Regular, sans-serif;
-    --light: Geist-Light, sans-serif;
+    --font-accent: Xolonium-bold, sans-serif;
+    --font-primary-semibold: Geist-SemiBold, sans-serif;
+    --font-primary-medium: Geist-Medium, sans-serif;
+    --font-primary-regular: Geist-Regular, sans-serif;
 }
 
 * {
