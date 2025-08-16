@@ -2,8 +2,8 @@ name: Deploy static site to Pages
 
 on:
   push:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches: [ "dev" ]   # деплоим с dev
+  workflow_dispatch:       # можно запускать руками из Actions
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .   # корень репозитория, где лежит index.html
+          path: .   # в корне лежит index.html
 
       - name: Deploy to GitHub Pages
         id: deployment
